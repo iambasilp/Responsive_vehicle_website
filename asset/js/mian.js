@@ -6,7 +6,9 @@ const navMenu = document.getElementById('nav-menu')
 // When we click the toggle
 if(navToggle){
     navToggle.addEventListener('click',()=>{
-     navMenu.classList.add('show-menu')        
+        console.log("toggle clicked") 
+     navMenu.classList.add('show-menu')    
+        
     })
 }
 // when we click the close button
