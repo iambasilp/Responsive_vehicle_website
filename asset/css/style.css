@@ -16,9 +16,9 @@
   --body-color: hsl(0, 0%, 100%);
   --container-color: hsl(19, 100%, 97%); */
   --first-color:  hsl(0,87.12%,54.31%) ;
-  --first-color-alt: hsl(243.46,100%,67.41%);
-  --title-color: rgb(0, 0, 0);
-  --text-color:hsl(244.8,17.01%,28.82%);
+  --first-color-alt:  rgb(255, 0, 0);
+  --title-color: rgb(27, 26, 26);
+  --text-color:rgb(56, 55, 70);
   --text-color-light:rgb(123, 123, 143);
   --body-color: hsl(0,0%,94.9%);
   --container-color: rgb(247, 245, 245);
@@ -206,3 +206,49 @@ img {
    top: 0;
 }
 /* Header end */
+
+
+/* HOme */
+.home{
+  position: relative;
+}
+.home__container{
+  padding-top: 2rem;
+  row-gap: 2rem;
+}
+.home__img{
+  width: 300px;
+  justify-self: center;
+}
+.home__title{
+  font-size:var(--biggest-font-size);
+  line-height: 144%;
+  margin-bottom: 1rem;
+}
+.home__description{
+  margin-bottom: 2.2rem;
+}
+
+/* button */
+.button{
+  background-color: var(--first-color);
+  color: white;
+  padding:1rem 1.5rem;
+  border-radius: .5rem;
+  display:inline-flex;
+  align-items: center;
+  column-gap: .3rem;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+  transition: all ease 0.3s;
+}
+.button:hover{
+  background-color: firebrick;
+}
+.button i{
+  transition: all ease 0.3s;
+}
+.button:hover i{
+  transform: translateX(.25rem);
+}

@@ -1,52 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Website </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Website</title>
     <!-- Remixicon cdn linked -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <!-- Style css linked -->
-    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/style.css" />
     <!-- Javascript linked -->
     <script src="./asset/js/mian.js" defer></script>
-</head>
-<body>
-     <header class="header" id="header">
-        <nav class="nav container">
-            <div class="nav__logo">
-                <i class="ri-briefcase-line"></i>
-                Bitchlo
-            </div>
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link">Home</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link">About</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#services" class="nav__link">Services</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="recently" class="nav__link">Recently</a>
-                    </li>
-                </ul>
-                <div class="nav__close" id="nav-close">
-                    <i class="ri-close-line"></i>
-                </div>
-            </div>
-            <div class="nav__button">
-                <!-- Theme integreattion -->
-                <!-- <i class="ri-moon-line"></i> -->
-                <!-- toggle button -->
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-menu-line"></i>
-                </div>
-            </div>
-        </nav>
-     </header>
-</body>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="nav__logo">
+          <i class="ri-briefcase-line"></i>
+          Bitchlo
+        </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="recently" class="nav__link">Recently</a>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+        <div class="nav__button">
+          <!-- Theme integreattion -->
+          <!-- <i class="ri-moon-line"></i> -->
+          <!-- toggle button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main -->
+    <main class="main">
+      <!-- Home -->
+      <div class="home section" id="home">
+        <div class="home__container container grid">
+          <img src="./asset/img/Home.svg" alt="home image" class="home__img" />
+          <div class="home__data">
+            <h1 class="home__title">Car Lead world Managment</h1>
+            <p class="home__description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Distinctio, veritatis
+            </p>
+            <a href="#" class="button home__button">Explore
+                <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
