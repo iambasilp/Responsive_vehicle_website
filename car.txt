@@ -1,0 +1,22 @@
+file and folder structure
+font LINK - 
+variables
+base
+resuable css
+header
+nav
+show header
+remove menu on mobile
+home
+change background header
+about
+popular
+recently
+newsletter
+footer
+scroll bar
+scroll up
+scroll active link
+dark-theme
+breakpoints
+animation
